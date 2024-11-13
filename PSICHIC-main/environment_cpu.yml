@@ -1,0 +1,28 @@
+name: psichic_fp
+channels:
+  - pytorch  # Highest priority for pytorch and related packages
+  - conda-forge
+  - defaults
+  - pyg
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - pyg::pyg
+  - pip
+  - pip:
+    - rdkit
+    - scipy
+    - biopython
+    - pandas
+    - biopandas
+    - timeout_decorator
+    - py3Dmol
+    - umap-learn
+    - plotly
+    - mplcursors
+    - lifelines
+    - reprint
+    - fair-esm

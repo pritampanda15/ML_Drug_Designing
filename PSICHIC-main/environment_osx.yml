@@ -1,0 +1,27 @@
+name: psichic_fp
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - pyg
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pyg
+  - pip
+  - pip:
+    - rdkit
+    - scipy
+    - biopython
+    - pandas
+    - biopandas
+    - timeout_decorator
+    - py3Dmol
+    - umap-learn
+    - plotly
+    - mplcursors
+    - lifelines
+    - reprint
+    - fair-esm
